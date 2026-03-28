@@ -9,7 +9,7 @@ on:
     paths:
       - '**/*.ts'
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '0 * * * *'
 
 jobs:
   update-rss:
